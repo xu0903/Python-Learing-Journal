@@ -36,9 +36,14 @@ while True:
 
 
 
-# Q34.二進位轉換???????
-
-
+# Q34.二進位轉換
+    while True:
+    try:
+        n = int(input())
+        print(bin(n)[2:])
+    except EOFError:
+        break
+        
 # Q24.最大公因數
 a, b = map(int, input().split())
 
